@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 20, 2016, 5:24:14 PM
+    Author     : Rafi
+*/
+
+#fancytext {
+    -fx-font: 48px Algerian;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 100%, repeat, black 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+
+#fancytext2 {
+    -fx-font: 32px Forte;
+    -fx-text-fill: black;
+}
+
+#fancytext3 {
+    -fx-font: 28px Forte;
+    -fx-fill: blue;
+}
+
+#fancytext4 {
+    -fx-font: 28px Forte;
+    -fx-fill: green;
+}
+
+#fancybutton {
+    -fx-text-fill: white;
+    -fx-font: 28px Forte;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1);
+}
+
+#fancybutton:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#fancybackbutton {
+    -fx-background-radius: 5em;
+    -fx-text-fill: white;
+    -fx-font: 18px Elephant;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1);
+}
+
+#fancybackbutton:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
